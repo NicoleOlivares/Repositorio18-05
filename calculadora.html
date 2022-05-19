@@ -22,6 +22,28 @@
 
         var resultadoResta = resta(2, 4);
         console.log("resultado", resultadoResta);
+
+        //funcion ingreso dos numeros y llamar a las funciones 
+        //pedir numeros 
+        var num1 = parseInt(prompt("Ingrese el primer valor"));
+        var num2 = parseInt(prompt("Ingrese el segundo valor"));
+
+        //funcion suma
+        function suma2(num1, num2) {
+            return num1 + num2;
+        }
+
+        var resultadoSuma2 = suma(num1, num2);
+
+        //funcion resta
+        function resta2(num1, num2) {
+            return num1 - num2;
+        }
+
+        var resultadoResta2 = resta(num1, num2);
+
+        //resultado en alert
+        alert("resultado de restar: " + resultadoResta2 + "\nresultado de sumar: " + resultadoSuma2);
     </script>
 </head>
 
